@@ -30,3 +30,7 @@ To securely access the server and services from outside the local network, Tails
 curl -fsSL https://tailscale.com/install.sh | sh
 sudo tailscale up
 ```
+---
+## Hosted Services
+Here is a list of the services currently running on this server. Click on each service to see its specific setup and configuration:
+* [Stirling-PDF](./stirling-pdf) - A powerful, locally hosted tool to manage and edit PDF files.
