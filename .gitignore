@@ -1,0 +1,7 @@
+stirling-pdf/logs/
+stirling-pdf/customFiles/
+stirling-pdf/extraConfigs/
+stirling-pdf/trainingData
+
+.DS_Store
+Thumbs.db
