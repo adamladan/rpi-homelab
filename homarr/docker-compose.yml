@@ -10,3 +10,13 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
       - SECRET_ENCRYPTION_KEY=7c9bb606c0262a173e48925262a10f5ab034c72a950dbd91b0f092905ae4177d
+
+  dashdot:
+    image: mauricenino/dashdot:latest
+    container_name: dashdot
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - "3001:3001"
+    volumes:
+      - /:/mnt/host:ro
