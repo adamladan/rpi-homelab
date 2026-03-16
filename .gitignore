@@ -3,9 +3,7 @@ stirling-pdf/customFiles/
 stirling-pdf/extraConfigs/
 stirling-pdf/trainingData
 
-homarr/configs/
-homarr/icons/
-homarr/data/
+homarr/appdata/
 
 .DS_Store
 Thumbs.db
