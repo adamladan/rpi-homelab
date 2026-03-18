@@ -5,7 +5,7 @@ Welcome to my home lab documentation! This repository contains the configuration
 ## ⚙️ Hardware & OS
 * **Device:** Raspberry Pi 4 Model B (8GB RAM)
 * **OS:** Raspberry Pi OS Lite (64-bit)
-* **Storage:** USB 3 Stick
+* **Storage:** USB 3.1 Flash Drive
 
 ---
 
@@ -19,18 +19,19 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
 
-### 2. Grant user permissions:
-This allows you to run Docker commands without typing `sudo`every time.
+### 2. Grant User Permissions
+This allows you to run Docker commands without typing `sudo` every time.
 ```bash
 sudo usermod -aG docker $USER
 ```
 *(Note: You must log out and log back in via SSH for this to take effect).*
 
 ---
+
 ## 🔒 Remote Access: Tailscale
 To securely access the server and its services from outside the local network (without opening router ports), Tailscale is used to create a private, encrypted VPN.
 
-### 1. Install and connect:
+### 1. Install and Connect
 ```bash
 curl -fsSL https://tailscale.com/install.sh | sh
 sudo tailscale up
@@ -43,5 +44,8 @@ Once connected to the Tailnet, services can be accessed remotely using the Pi's 
 
 ## 🚀 Hosted Services
 Here is a list of the services currently running on this server. Click on any service to see its specific `docker-compose.yml` and setup instructions:
-* [Stirling-PDF](./stirling-pdf) - A powerful, locally hosted tool to manage, split, merge and edit PDF files.
-* [Homarr](./homarr) - A visually appealing, intuitive dashboard to make it easier to access locally hosted apps without remembering port numbers. Uses Dash. to monitor system resources.
+
+| Service | Description | Port |
+| :--- | :--- | :--- |
+| [**Homarr**](./homarr) | A visually appealing, intuitive dashboard to make it easier to access locally hosted apps. Uses **Dashdot** to monitor system resources. | `7575` |
+| [**Stirling PDF**](./stirling-pdf) | A powerful, locally hosted tool to manage, split, merge, and edit PDF files. | `8080` |
