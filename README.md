@@ -44,3 +44,4 @@ Once connected to the Tailnet, services can be accessed remotely using the Pi's 
 ## 🚀 Hosted Services
 Here is a list of the services currently running on this server. Click on any service to see its specific `docker-compose.yml` and setup instructions:
 * [Stirling-PDF](./stirling-pdf) - A powerful, locally hosted tool to manage, split, merge and edit PDF files.
+* [Homarr](./homarr) - A visually appealing, intuitive dashboard to make it easier to access locally hosted apps without remembering port numbers. Uses Dash. to monitor system resources.
