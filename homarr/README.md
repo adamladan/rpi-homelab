@@ -17,17 +17,21 @@ docker compose up -d
 ---
 
 ## ⚙️ Configuration & Data
+	
+This service is deployed using the `docker-compose.yml` file located in this directory.
 
-Homarr stores all your dashboard layouts, icons, and settings in specific folders to ensure they persist through updates.
+**Note:** This compose file actually spins up **two** containers tthat work together: Homarr (the dashboard) and Dashdot (the system monitor that feeds CPU/RAM data to Homarr).
 
 **Exposed Ports:**
 * `7575` (Web UI)
+* `3001` (Dashdot Web UI / API)
 
 **Volumes (Persistent Data):**
-* `./configs:/app/data/configs` *(Your layouts, widgets, and app settings)*
-* `./icons:/app/data/icons` *(Custom icons you've uploaded)*
+* `./appdata:/appdata` *(All your Homarr layouts, settings, databases and custom icons are stored here)*
+* `/var/run/docker.sock:/var/run/docker.sock` *(Allows Homarr to read Docker status and manage containers)*
+* `/:/mnt/host:ro` *(Allows Dashdot read-only access to monitor the host's hardware)*
 
-*Note: The `configs` folder is the most important one. Without it, you lose your entire dashboard layout.*
+*Note: The `./appdata` folder is the most important one. Without it, you lose your entire dashboard layout and configuration.*
 
 ---
 
