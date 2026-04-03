@@ -36,5 +36,3 @@ This service is deployed using the `docker-compose.yml` file located in this dir
 This service follows the **Standard Update Routine**. 
 
 Please refer to the [Main README](../README.md#🔄-updating-services-standard-routine) for step-by-step update instructions. 
-
-*(Note: During the few seconds it takes to pull and recreate this container, internet access (DNS resolution) on the local network will be temporarily paused. It is best to update this during low-traffic hours).*
