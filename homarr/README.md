@@ -20,7 +20,7 @@ docker compose up -d
 	
 This service is deployed using the `docker-compose.yml` file located in this directory.
 
-**Note:** This compose file actually spins up **two** containers tthat work together: Homarr (the dashboard) and Dashdot (the system monitor that feeds CPU/RAM data to Homarr).
+**Note:** This compose file actually spins up **two** containers that work together: Homarr (the dashboard) and Dashdot (the system monitor that feeds CPU/RAM data to Homarr).
 
 **Exposed Ports:**
 * `7575` (Web UI)
