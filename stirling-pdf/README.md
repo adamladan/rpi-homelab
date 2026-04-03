@@ -1,37 +1,33 @@
-# 📄 Stirling-PDF
+# 📄 Stirling PDF
 
-A powerful, locally hosted, web-based tool to manage, split, merge, and edit PDF files without relying on external cloud services.
+A powerful, locally hosted, web-based PDF manipulation tool that allows you to split, merge, convert, and edit PDFs without sending data to the cloud.
 
-## ✨ Features
-* Merge, split, and rotate PDFs
-* Add/remove passwords and watermarks
-* OCR (Optical Character Recognition) support
-* Completely private and runs entirely on the local network
+## 🔗 Links
+* **Local Access:** `http://192.168.0.79:8080` (or via Tailscale IP)
+* **Official Documentation:** [GitHub - Stirling-Tools](https://github.com/Stirling-Tools/Stirling-PDF)
 
-## ⚙️ Configuration
-This service is deployed using Docker Compose. All settings, including port mappings and volume mounts for persistent data (like custom files, OCR training data, and logs), are defined in the [`docker-compose.yml`](./docker-compose.yml) file located in this directory
+---
 
-## 🚀 Usage
+## ⚙️ Configuration & Data
 
-### Start the service:
-Navigate to this directory on the server and run:
-```bash
-docker compose up -d
-```
+This service is deployed using the `docker-compose.yml` file located in this directory. 
 
-### 🌐 Access the web interface:
-* **Locally:** `http://homelab:8080` (or the local IP address)
-*  **Remotely (via Tailscale):** `http://homelab:8080` (using MagicDNS) or `http://<your-tailscale-ip>:8080`
+**Exposed Ports:**
+* `8080` (Web UI)
 
-### 🛑 Stop the service:
-If you need to shut down the container, run:
-```bash
-docker compose down
-```
+**Volumes (Persistent Data):**
+* `./trainingData:/usr/share/tesseract-ocr/5/tessdata` *(Used for OCR language packs)*
+* `./extraConfigs:/configs` *(Custom settings)*
+* `./customFiles:/customFiles` *(Custom logos and branding)*
 
-### 🔄 Update the service:
-To pull the latest updates for Stirling-PDF, run these commands in the directory:
-```bash
-docker compose pull
-docker compose up -d
-```
+*Note: All persistent data is saved locally in this folder. To back up this service, simply copy the entire `stirling-pdf` directory.*
+
+---
+
+## 🔄 Updates
+
+This service follows the **Standard Update Routine**. 
+
+Please refer to the [Main README](../README.md#🔄-updating-services-standard-routine) in the root of the repository for step-by-step update instructions. 
+
+*(No special update steps or database migrations are typically required for Stirling PDF).*

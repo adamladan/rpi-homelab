@@ -13,7 +13,7 @@ Welcome to my home lab documentation! This repository contains the configuration
 To keep the system modular, clean, and easy to back up, all services are deployed as Docker containers.
 
 ### 1. Install Docker
-Download and run the official convecnience script:
+Download and run the official convenience script:
 ```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
@@ -42,6 +42,28 @@ Once connected to the Tailnet, services can be accessed remotely using the Pi's 
 
 ---
 
+## 🔄 Updating Services (Standard Routine)
+Following the DRY (Don't Repeat Yourself) principle, most services in this homelab follow the exact same update procedure. Unless specified otherwise in a service's specific README, use these steps to update a container to its latest version:
+
+1. Navigate to the directory containing the service's `docker-compose.yml` (example):
+   ```bash
+   cd ~/homelab/homarr
+   ```
+2. Pull the latest image:
+   ```bash
+   docker compose pull
+   ```
+3. Recreate and start the container in the background:
+   ```bash
+   docker compose up -d
+   ```
+4. *(Optional but recommended)* Clean up old, unused Docker images to save disk space:
+   ```bash
+   docker image prune -f
+   ```
+
+---
+
 ## 🚀 Hosted Services
 Here is a list of the services currently running on this server. Click on any service to see its specific `docker-compose.yml` and setup instructions:
 
@@ -49,3 +71,4 @@ Here is a list of the services currently running on this server. Click on any se
 | :--- | :--- | :--- |
 | [**Homarr**](./homarr) | A visually appealing, intuitive dashboard to make it easier to access locally hosted apps. Uses **Dashdot** to monitor system resources. | `7575` |
 | [**Stirling PDF**](./stirling-pdf) | A powerful, locally hosted tool to manage, split, merge, and edit PDF files. | `8080` |
+| [**AdGuard Home**](./adguard-home) | Network-wide ad and tracker blocking DNS server. Acts as a sinkhole to protect all connected devices. | `8090` (Web)<br>`53` (DNS) |

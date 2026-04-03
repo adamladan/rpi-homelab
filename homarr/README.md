@@ -1,31 +1,37 @@
-# 🦊 Homarr Dashboard
+# 🏠 Homarr
 
-This is the configuration for my personal homepage and control panel, built with Homarr. This is the central hub where I manage and monitor my entire homelab!
+A sleek, modern dashboard that acts as the central hub for all my self-hosted services. It provides quick access to apps and real-time monitoring of server health.
 
-## 🌐 Access
+## 🔗 Links
+* **Local Access:** `http://<YOUR_PI_IP>:7575` (or via Tailscale IP)
+* **Official Documentation:** [Homarr Docs](https://homarr.dev/)
 
-* **Local URL:** `http://homelab:7575`
-* **IP Address:** `http://192.168.0.49:7575` *(Update this if the local IP changes)*
+---
 
-## ⚙️ Start and Stop
-
-Navigate to this directory (`~/homelab/homarr`) and run the following Docker Compose commands:
-
-**Start the services in the background:**
-`bash
+## 🚀 Start Service
+To spin up the dashboard, navigate to this directory and run:
+```bash
 docker compose up -d
-`
+```
 
-**Stop the services:**
-`bash
-docker compose down
-`
+---
 
-## 📦 Contents of this Compose File
+## ⚙️ Configuration & Data
 
-* **Homarr:** The main dashboard application.
-* **Dashdot:** Monitors the Raspberry Pi's CPU, RAM, and network to display live system graphs on the dashboard via port `3001`.
+Homarr stores all your dashboard layouts, icons, and settings in specific folders to ensure they persist through updates.
 
-## 💾 Data and Backups
+**Exposed Ports:**
+* `7575` (Web UI)
 
-Homarr's settings, boards, and icons are saved persistently in mapped volumes within this directory. If the Raspberry Pi restarts or the container is recreated, all custom designs and configurations remain safely stored here.
+**Volumes (Persistent Data):**
+* `./configs:/app/data/configs` *(Your layouts, widgets, and app settings)*
+* `./icons:/app/data/icons` *(Custom icons you've uploaded)*
+
+*Note: The `configs` folder is the most important one. Without it, you lose your entire dashboard layout.*
+
+---
+
+## 🔄 Updates
+This service follows the **Standard Update Routine**. 
+
+Please refer to the [Main README](../README.md#🔄-updating-services-standard-routine) for step-by-step update instructions.
