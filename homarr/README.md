@@ -3,8 +3,8 @@
 A sleek, modern dashboard that acts as the central hub for all my self-hosted services. It provides quick access to apps and real-time monitoring of server health.
 
 ## 🔗 Links
-* **Local Access:** `http://<YOUR_PI_IP>:7575` (or via Tailscale IP)
-* **Official Documentation:** [Homarr Docs](https://homarr.dev/)
+* **Local Access:** `http://192.168.0.49:7575` (or via Tailscale IP)
+* **Official Documentation:** [Homarr Docs](https://homarr.dev/docs/getting-started/)
 
 ---
 
