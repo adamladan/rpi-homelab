@@ -4,7 +4,7 @@ A network-wide software for blocking ads and tracking. After you set it up, itâ€
 
 ## ðŸ”— Links
 * **Local Access (Web UI):** http://192.168.0.49:8090 (or via Tailscale IP)
-* **Official Documentation:** [AdGuard Home GitHub](https://github.com/AdguardTeam/AdGuardHome
+* **Official Documentation:** [AdGuard Home GitHub](https://github.com/AdguardTeam/AdGuardHome)
 
 ---
 
