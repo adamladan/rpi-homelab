@@ -42,18 +42,27 @@ Once connected to the Tailnet, services can be accessed remotely using the Pi's 
 
 ---
 
-## 🔄 Updating Services (Standard Routine)
-Following the DRY (Don't Repeat Yourself) principle, most services in this homelab follow the exact same update procedure. Unless specified otherwise in a service's specific README, use these steps to update a container to its latest version:
+## 🚀 Deployment & Updates
 
-1. Navigate to the directory containing the service's `docker-compose.yml` (example):
+Because all services are managed via Docker Compose, deploying and updating them is incredibly straightforward and standardized across the entire homelab.
+
+### ▶️ Starting a Service
+To spin up a new service (or start an existing one), navigate to its directory and run:
+```bash
+docker compose up -d
+```
+
+### 🔄 Updating a Service
+To update any container to its latest version, follow this standard 4-step routine:
+1. Navigate to the service directory (e.g. Homarr):
    ```bash
    cd ~/homelab/homarr
    ```
-2. Pull the latest image:
+2. Pull the latest image from the registry:
    ```bash
    docker compose pull
    ```
-3. Recreate and start the container in the background:
+3. Recreate and start the container in the background (this automatically applies the new image):
    ```bash
    docker compose up -d
    ```
@@ -71,4 +80,4 @@ Here is a list of the services currently running on this server. Click on any se
 | :--- | :--- | :--- |
 | [**Homarr**](./homarr) | A visually appealing, intuitive dashboard to make it easier to access locally hosted apps. Uses **Dashdot** to monitor system resources. | `7575` |
 | [**Stirling PDF**](./stirling-pdf) | A powerful, locally hosted tool to manage, split, merge, and edit PDF files. | `8080` |
-| [**AdGuard Home**](./adguard-home) | Network-wide ad and tracker blocking DNS server. Acts as a sinkhole to protect all connected devices. | `8090` (Web)<br>`53` (DNS) |
+| [**AdGuard Home**](./adguard) | Network-wide ad and tracker blocking DNS server. Acts as a sinkhole to protect all connected devices. | `8090` (Web)<br>`53` (DNS) |

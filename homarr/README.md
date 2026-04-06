@@ -3,16 +3,8 @@
 A sleek, modern dashboard that acts as the central hub for all my self-hosted services. It provides quick access to apps and real-time monitoring of server health.
 
 ## 🔗 Links
-* **Local Access:** `http://192.168.0.49:7575` (or via Tailscale IP)
+* **Local Access:** http://192.168.0.49:7575 (or via Tailscale IP)
 * **Official Documentation:** [Homarr Docs](https://homarr.dev/docs/getting-started/)
-
----
-
-## 🚀 Start Service
-To spin up the dashboard, navigate to this directory and run:
-```bash
-docker compose up -d
-```
 
 ---
 
@@ -32,10 +24,3 @@ This service is deployed using the `docker-compose.yml` file located in this dir
 * `/:/mnt/host:ro` *(Allows Dashdot read-only access to monitor the host's hardware)*
 
 *Note: The `./appdata` folder is the most important one. Without it, you lose your entire dashboard layout and configuration.*
-
----
-
-## 🔄 Updates
-This service follows the **Standard Update Routine**. 
-
-Please refer to the [Main README](../README.md#🔄-updating-services-standard-routine) for step-by-step update instructions.
