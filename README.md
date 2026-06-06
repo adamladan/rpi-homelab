@@ -79,7 +79,6 @@ Here is a list of the services currently running on this server. Click on any se
 | Service | Description | Port |
 | :--- | :--- | :--- |
 | [**Homarr**](./homarr) | A visually appealing, intuitive dashboard to make it easier to access locally hosted apps. Uses **Dashdot** to monitor system resources. | `7575` |
-| [**Stirling PDF**](./stirling-pdf) | A powerful, locally hosted tool to manage, split, merge, and edit PDF files. | `8080` |
 | [**AdGuard Home**](./adguard) | Network-wide ad and tracker blocking DNS server. Acts as a sinkhole to protect all connected devices. | `8090` (Web)<br>`53` (DNS) |
 
 ## 🪦 Retired Services
