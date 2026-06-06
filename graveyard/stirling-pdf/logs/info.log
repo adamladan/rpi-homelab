@@ -1,0 +1,135 @@
+2026-06-06 00:00:00,016 INFO s.s.p.s.s.DatabaseService [scheduled-vt-1143] Deleted oldest backup: backup_202605130000.sql
+2026-06-06 00:00:00,121 INFO s.s.p.s.s.DatabaseService [scheduled-vt-1143] Database export completed: configs/backup/db/backup_202606060000.sql
+2026-06-06 00:00:00,130 INFO s.s.p.s.s.DatabaseService [scheduled-vt-1143] Checksum for backup_202606060000.sql: 6aba40669a3ca5671d3ee67b88d71ce0a3e0740d00c932fa379acbcca6b2fb94
+2026-06-06 00:06:19,612 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 00:06:19,613 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 00:06:19,614 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 00:36:19,615 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 00:36:19,616 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 00:36:19,617 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 01:06:19,618 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 01:06:19,619 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 01:06:19,620 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 01:36:19,622 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 01:36:19,622 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 01:36:19,623 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 02:06:19,626 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 02:06:19,627 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 02:06:19,628 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 02:36:19,630 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 02:36:19,631 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 02:36:19,631 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 03:06:19,632 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 03:06:19,633 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 03:06:19,633 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 03:36:19,635 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 03:36:19,636 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 03:36:19,636 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 04:06:19,638 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 04:06:19,639 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 04:06:19,655 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 04:36:19,659 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 04:36:19,659 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 04:36:19,660 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 05:06:19,664 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 05:06:19,666 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 05:06:19,667 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 05:36:19,670 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 05:36:19,671 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 05:36:19,672 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 06:06:19,680 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 06:06:19,680 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 06:06:19,681 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 06:36:19,683 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 06:36:19,683 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 06:36:19,684 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 07:06:19,687 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 07:06:19,687 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 07:06:19,688 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 07:36:19,689 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 07:36:19,690 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 07:36:19,691 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 08:06:19,693 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 08:06:19,694 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 08:06:19,695 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 08:36:19,697 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 08:36:19,698 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 08:36:19,698 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 09:06:19,700 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 09:06:19,701 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 09:06:19,702 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 09:36:19,705 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 09:36:19,705 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 09:36:19,706 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 10:06:19,707 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 10:06:19,713 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 10:06:19,713 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 10:36:19,715 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 10:36:19,716 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 10:36:19,717 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 10:46:12,478 INFO s.s.S.SPDFApplication [main] Additional features in jar
+2026-06-06 10:46:12,501 INFO s.s.c.c.ConfigInitializer [main] Current settings file line count: 317
+2026-06-06 10:46:17,467 INFO s.s.c.c.ConfigInitializer [main] Settings file updated based on template changes.
+2026-06-06 10:46:17,471 INFO s.s.S.SPDFApplication [main] Settings file: ./configs/settings.yml
+2026-06-06 10:46:17,474 INFO s.s.S.SPDFApplication [main] Custom settings file: ./configs/custom_settings.yml
+2026-06-06 10:46:20,777 INFO s.s.S.SPDFApplication [main] Starting SPDFApplication v2.7.2 using Java 25.0.2 with PID 267 (/app/app.jar started by ubuntu in /app)
+2026-06-06 10:46:20,799 INFO s.s.S.SPDFApplication [main] The following 1 profile is active: "security"
+2026-06-06 10:46:48,965 INFO s.s.S.c.MultipartConfiguration [main] Using default multipart file upload limit: 2000MB
+2026-06-06 10:46:57,931 INFO s.s.p.s.c.DatabaseConfig [main] Using default H2 database
+2026-06-06 10:47:17,013 INFO s.s.p.s.s.KeyPersistenceService [main] Loading 1 existing JWT keys from disk
+2026-06-06 10:47:17,042 INFO s.s.p.s.s.KeyPersistenceService [main] Set active JWT signing key: jwt-key-2026-03-13-203835
+2026-06-06 10:47:17,043 INFO s.s.p.s.s.KeyPersistenceService [main] Successfully loaded 1 JWT keys, active key: jwt-key-2026-03-13-203835
+2026-06-06 10:47:18,092 INFO s.s.p.s.s.DatabaseService [main] Source directory does not exist: configs/db/backup
+2026-06-06 10:47:18,908 INFO s.s.c.c.RuntimePathConfig [main] Registered watched folder path: /app/pipeline/watchedFolders
+2026-06-06 10:47:18,909 INFO s.s.c.c.RuntimePathConfig [main] Using Tesseract data path: /usr/share/tesseract-ocr/5/tessdata
+2026-06-06 10:47:19,079 WARN s.s.S.c.ExternalAppDepConfig [virtual-43] Missing dependency: rar - Disabling group: rar (Affected features: PDF To Cbr)
+2026-06-06 10:47:19,073 INFO s.s.S.c.ExternalAppDepConfig [virtual-50] qpdf 12.3.2 meets minimum 12.0.0
+2026-06-06 10:47:24,083 WARN s.s.S.c.ExternalAppDepConfig [virtual-51] WeasyPrint version could not be determined (/opt/venv/bin/weasyprint --version)
+2026-06-06 10:47:25,814 INFO s.s.S.c.EndpointConfiguration [main] Disabled tool groups: rar (endpoints may have alternative implementations)
+2026-06-06 10:47:25,814 INFO s.s.S.c.EndpointConfiguration [main] Disabled functional groups: enterprise
+2026-06-06 10:47:25,815 INFO s.s.S.c.EndpointConfiguration [main] Total disabled endpoints: 2. Disabled endpoints: pdf-to-cbr, url-to-pdf
+2026-06-06 10:47:27,529 INFO s.s.S.s.VeraPDFService [main] VeraPDF Greenfield initialized successfully
+2026-06-06 10:47:27,742 INFO s.s.S.s.PdfJsonFallbackFontService [main] Using fallback font location: classpath:/static/fonts/NotoSans-Regular.ttf
+2026-06-06 10:47:27,758 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] CFF conversion enabled, checking tool availability...
+2026-06-06 10:47:27,767 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] Python command '/opt/venv/bin/python3' is available
+2026-06-06 10:47:27,777 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] FontForge command 'fontforge' is available
+2026-06-06 10:47:27,777 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] Selected CFF converter method: python
+2026-06-06 10:47:30,396 INFO s.s.S.s.p.t.l.Type3FontLibrary [main] [TYPE3] Loaded 61 Type3 library entries (signatures=81, aliases=64) from classpath:/type3/library/index.json
+2026-06-06 10:47:32,932 INFO s.s.c.s.MobileScannerService [main] Mobile scanner temp directory: /tmp/stirling-pdf/stirling-mobile-scanner
+2026-06-06 10:47:34,001 INFO s.s.c.u.FileMonitor [main] Monitoring directory: /app/pipeline/watchedFolders
+2026-06-06 10:47:34,007 INFO s.s.c.u.FileMonitor [main] Registered directory: /app/pipeline/watchedFolders
+2026-06-06 10:47:34,476 INFO s.s.S.s.CertificateValidationService [main] Loading certificates from Java system trust store
+2026-06-06 10:47:34,606 INFO s.s.S.s.CertificateValidationService [main] Loaded 144 CA certificates from Java system trust store
+2026-06-06 10:47:34,607 INFO s.s.S.s.CertificateValidationService [main] Loading bundled Mozilla CA certificates from resources
+2026-06-06 10:47:34,772 INFO s.s.S.c.w.ReactRoutingController [main] Static files custom path: ./customFiles/static/
+2026-06-06 10:47:35,143 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] System resource status changed from OK to CRITICAL
+2026-06-06 10:47:35,159 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] Current metrics - CPU: 95.1%, Memory: 10.8%, Free Memory: 125 MB
+2026-06-06 10:47:35,433 INFO s.s.c.s.TempFileCleanupService [main] Running in Docker mode, using aggressive cleanup strategy
+2026-06-06 10:47:35,461 INFO s.s.c.s.TempFileCleanupService [main] Startup cleanup complete. Deleted 0 temporary files/directories
+2026-06-06 10:47:38,658 INFO s.s.p.s.UserLicenseSettingsService [main] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-06-06 10:47:41,403 INFO s.s.p.s.c.SecurityConfiguration [main] No CORS allowed origins configured in settings.yml (system.corsAllowedOrigins); allowing all origins.
+2026-06-06 10:47:47,085 INFO s.s.c.s.JobQueue [main] Starting JobQueue lifecycle
+2026-06-06 10:47:47,268 INFO s.s.S.SPDFApplication [main] Started SPDFApplication in 89.774 seconds (process running for 101.024)
+2026-06-06 10:47:47,278 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 10:47:47,292 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 10:47:47,293 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 10:47:47,347 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /v1/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-06 10:47:47,348 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-06 10:47:47,351 INFO s.s.S.SPDFApplication [main] Stirling-PDF running on port: 8080
+2026-06-06 10:47:47,354 INFO s.s.p.s.ServerCertificateService [main] Server certificate feature requires Pro or Enterprise license
+2026-06-06 10:47:47,376 INFO s.s.p.s.UserLicenseSettingsService [main] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-06-06 10:47:47,384 INFO s.s.S.SPDFApplication [main] Stirling-PDF Started.
+2026-06-06 10:47:47,386 INFO s.s.S.SPDFApplication [main] Navigate to http://localhost:8080/
+2026-06-06 10:48:35,141 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] System resource status changed from CRITICAL to OK
+2026-06-06 10:48:35,142 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] Current metrics - CPU: 40.0%, Memory: 16.8%, Free Memory: 201 MB
+2026-06-06 11:17:47,311 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-06 11:17:47,313 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-06 11:17:47,314 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-06 11:27:52,284 INFO s.s.c.c.TempFileShutdownHook [Thread-2] Shutdown cleanup complete. Deleted 0 temporary files/directories
+2026-06-06 11:27:52,304 INFO s.s.c.s.JobQueue [SpringApplicationShutdownHook] Stopping JobQueue lifecycle
+2026-06-06 11:27:52,305 INFO s.s.c.s.JobQueue [SpringApplicationShutdownHook] Shutting down job queue
+2026-06-06 11:27:52,308 INFO s.s.c.s.JobQueue [SpringApplicationShutdownHook] Job queue shutdown complete. Stats: total=0, rejected=0
+2026-06-06 11:27:52,329 INFO s.s.c.c.TempFileShutdownHook [SpringApplicationShutdownHook] Application shutting down, cleaning up temporary files
+2026-06-06 11:27:52,330 INFO s.s.c.c.TempFileShutdownHook [SpringApplicationShutdownHook] Shutdown cleanup complete. Deleted 0 temporary files/directories
+2026-06-06 11:27:52,333 INFO s.s.c.s.ResourceMonitor [SpringApplicationShutdownHook] Shutting down resource monitoring
+2026-06-06 11:27:52,349 INFO s.s.c.s.TaskManager [SpringApplicationShutdownHook] Shutting down job result cleanup executor

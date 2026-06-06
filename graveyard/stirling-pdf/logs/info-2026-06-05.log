@@ -1,0 +1,217 @@
+2026-06-05 19:09:13,643 INFO s.s.S.SPDFApplication [main] Additional features in jar
+2026-06-05 19:09:13,702 INFO s.s.c.c.ConfigInitializer [main] Current settings file line count: 317
+2026-06-05 19:09:19,455 INFO s.s.c.c.ConfigInitializer [main] Settings file updated based on template changes.
+2026-06-05 19:09:19,459 INFO s.s.S.SPDFApplication [main] Settings file: ./configs/settings.yml
+2026-06-05 19:09:19,461 INFO s.s.S.SPDFApplication [main] Custom settings file: ./configs/custom_settings.yml
+2026-06-05 19:09:23,291 INFO s.s.S.SPDFApplication [main] Starting SPDFApplication v2.7.2 using Java 25.0.2 with PID 231 (/app/app.jar started by ubuntu in /app)
+2026-06-05 19:09:23,300 INFO s.s.S.SPDFApplication [main] The following 1 profile is active: "security"
+2026-06-05 19:09:52,722 INFO s.s.S.c.MultipartConfiguration [main] Using default multipart file upload limit: 2000MB
+2026-06-05 19:10:04,527 INFO s.s.p.s.c.DatabaseConfig [main] Using default H2 database
+2026-06-05 19:10:30,233 INFO s.s.p.s.s.KeyPersistenceService [main] Loading 1 existing JWT keys from disk
+2026-06-05 19:10:30,265 INFO s.s.p.s.s.KeyPersistenceService [main] Set active JWT signing key: jwt-key-2026-03-13-203835
+2026-06-05 19:10:30,270 INFO s.s.p.s.s.KeyPersistenceService [main] Successfully loaded 1 JWT keys, active key: jwt-key-2026-03-13-203835
+2026-06-05 19:10:31,850 INFO s.s.p.s.s.DatabaseService [main] Source directory does not exist: configs/db/backup
+2026-06-05 19:10:32,929 INFO s.s.c.c.RuntimePathConfig [main] Registered watched folder path: /app/pipeline/watchedFolders
+2026-06-05 19:10:32,931 INFO s.s.c.c.RuntimePathConfig [main] Using Tesseract data path: /usr/share/tesseract-ocr/5/tessdata
+2026-06-05 19:10:33,126 INFO s.s.S.c.ExternalAppDepConfig [virtual-51] qpdf 12.3.2 meets minimum 12.0.0
+2026-06-05 19:10:33,191 WARN s.s.S.c.ExternalAppDepConfig [virtual-44] Missing dependency: rar - Disabling group: rar (Affected features: PDF To Cbr)
+2026-06-05 19:10:38,091 WARN s.s.S.c.ExternalAppDepConfig [virtual-52] WeasyPrint version could not be determined (/opt/venv/bin/weasyprint --version)
+2026-06-05 19:10:39,704 INFO s.s.S.c.EndpointConfiguration [main] Disabled tool groups: rar (endpoints may have alternative implementations)
+2026-06-05 19:10:39,705 INFO s.s.S.c.EndpointConfiguration [main] Disabled functional groups: enterprise
+2026-06-05 19:10:39,706 INFO s.s.S.c.EndpointConfiguration [main] Total disabled endpoints: 2. Disabled endpoints: pdf-to-cbr, url-to-pdf
+2026-06-05 19:10:41,441 INFO s.s.S.s.VeraPDFService [main] VeraPDF Greenfield initialized successfully
+2026-06-05 19:10:41,629 INFO s.s.S.s.PdfJsonFallbackFontService [main] Using fallback font location: classpath:/static/fonts/NotoSans-Regular.ttf
+2026-06-05 19:10:41,645 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] CFF conversion enabled, checking tool availability...
+2026-06-05 19:10:41,658 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] Python command '/opt/venv/bin/python3' is available
+2026-06-05 19:10:41,667 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] FontForge command 'fontforge' is available
+2026-06-05 19:10:41,667 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] Selected CFF converter method: python
+2026-06-05 19:10:44,034 INFO s.s.S.s.p.t.l.Type3FontLibrary [main] [TYPE3] Loaded 61 Type3 library entries (signatures=81, aliases=64) from classpath:/type3/library/index.json
+2026-06-05 19:10:46,564 INFO s.s.c.s.MobileScannerService [main] Mobile scanner temp directory: /tmp/stirling-pdf/stirling-mobile-scanner
+2026-06-05 19:10:47,376 INFO s.s.c.u.FileMonitor [main] Monitoring directory: /app/pipeline/watchedFolders
+2026-06-05 19:10:47,379 INFO s.s.c.u.FileMonitor [main] Registered directory: /app/pipeline/watchedFolders
+2026-06-05 19:10:47,831 INFO s.s.S.s.CertificateValidationService [main] Loading certificates from Java system trust store
+2026-06-05 19:10:47,979 INFO s.s.S.s.CertificateValidationService [main] Loaded 144 CA certificates from Java system trust store
+2026-06-05 19:10:47,980 INFO s.s.S.s.CertificateValidationService [main] Loading bundled Mozilla CA certificates from resources
+2026-06-05 19:10:48,164 INFO s.s.S.c.w.ReactRoutingController [main] Static files custom path: ./customFiles/static/
+2026-06-05 19:10:48,450 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] System resource status changed from OK to CRITICAL
+2026-06-05 19:10:48,457 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] Current metrics - CPU: 101.5%, Memory: 10.1%, Free Memory: 130 MB
+2026-06-05 19:10:48,608 INFO s.s.c.s.TempFileCleanupService [main] Running in Docker mode, using aggressive cleanup strategy
+2026-06-05 19:10:48,628 INFO s.s.c.s.TempFileCleanupService [main] Startup cleanup complete. Deleted 0 temporary files/directories
+2026-06-05 19:10:51,599 INFO s.s.p.s.UserLicenseSettingsService [main] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-06-05 19:10:54,501 INFO s.s.p.s.c.SecurityConfiguration [main] No CORS allowed origins configured in settings.yml (system.corsAllowedOrigins); allowing all origins.
+2026-06-05 19:11:00,502 INFO s.s.c.s.JobQueue [main] Starting JobQueue lifecycle
+2026-06-05 19:11:00,738 INFO s.s.S.SPDFApplication [main] Started SPDFApplication in 101.262 seconds (process running for 118.245)
+2026-06-05 19:11:00,750 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-05 19:11:00,764 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-05 19:11:00,768 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-05 19:11:00,824 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /v1/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-05 19:11:00,825 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-05 19:11:00,827 INFO s.s.S.SPDFApplication [main] Stirling-PDF running on port: 8080
+2026-06-05 19:11:00,829 INFO s.s.p.s.ServerCertificateService [main] Server certificate feature requires Pro or Enterprise license
+2026-06-05 19:11:00,838 INFO s.s.p.s.UserLicenseSettingsService [main] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-06-05 19:11:00,844 INFO s.s.S.SPDFApplication [main] Stirling-PDF Started.
+2026-06-05 19:11:00,846 INFO s.s.S.SPDFApplication [main] Navigate to http://localhost:8080/
+2026-06-05 19:11:48,449 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] System resource status changed from CRITICAL to OK
+2026-06-05 19:11:48,450 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] Current metrics - CPU: 46.9%, Memory: 10.0%, Free Memory: 346 MB
+2026-06-05 19:21:11,683 WARN s.s.p.s.s.JwtService [jetty-102] Token validation failed - token has expired: JWT expired 6388784681 milliseconds ago at 2026-03-23T20:41:27.000Z. Current time: 2026-06-05T19:21:11.681Z. Allowed clock skew: 60000 milliseconds.
+2026-06-05 19:21:11,683 WARN s.s.p.s.s.JwtService [jetty-94] Token validation failed - token has expired: JWT expired 6388784681 milliseconds ago at 2026-03-23T20:41:27.000Z. Current time: 2026-06-05T19:21:11.681Z. Allowed clock skew: 60000 milliseconds.
+2026-06-05 19:21:11,683 WARN s.s.p.s.s.JwtService [jetty-97] Token validation failed - token has expired: JWT expired 6388784679 milliseconds ago at 2026-03-23T20:41:27.000Z. Current time: 2026-06-05T19:21:11.679Z. Allowed clock skew: 60000 milliseconds.
+2026-06-05 19:21:11,684 WARN s.s.p.s.s.JwtService [jetty-98] Token validation failed - token has expired: JWT expired 6388784679 milliseconds ago at 2026-03-23T20:41:27.000Z. Current time: 2026-06-05T19:21:11.679Z. Allowed clock skew: 60000 milliseconds.
+2026-06-05 19:21:11,831 WARN s.s.p.s.c.a.AuthController [jetty-106] Token refresh rejected: token expired beyond configured grace window
+2026-06-05 19:25:50,601 WARN s.s.p.s.c.a.AuthController [jetty-153] User not found: adamnorin
+2026-06-05 19:25:56,196 WARN s.s.p.s.c.a.AuthController [jetty-160] User not found: adamnorin
+2026-06-05 19:25:57,331 WARN s.s.p.s.c.a.AuthController [jetty-165] User not found: adamnorin
+2026-06-05 19:26:06,396 WARN s.s.p.s.c.a.AuthController [jetty-166] User not found: adamnorin
+2026-06-05 19:26:07,269 WARN s.s.p.s.c.a.AuthController [jetty-167] User not found: adamnorin
+2026-06-05 19:26:07,805 WARN s.s.p.s.c.a.AuthController [jetty-168] User not found: adamnorin
+2026-06-05 19:26:12,936 WARN s.s.p.s.c.a.AuthController [jetty-169] User not found: adamladan
+2026-06-05 19:26:25,967 WARN s.s.p.s.c.a.AuthController [jetty-172] User not found: adamladan
+2026-06-05 19:26:26,569 WARN s.s.p.s.c.a.AuthController [jetty-175] User not found: adamladan
+2026-06-05 19:26:30,404 WARN s.s.p.s.c.a.AuthController [jetty-176] User not found: adamladan
+2026-06-05 19:41:00,780 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-05 19:41:00,781 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-05 19:41:00,782 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-05 20:11:00,784 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-05 20:11:00,786 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-05 20:11:00,787 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-05 20:41:00,791 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-05 20:41:00,792 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-05 20:41:00,792 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-05 21:11:00,793 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-05 21:11:00,794 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-05 21:11:00,794 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-05 21:12:36,942 WARN s.s.p.s.c.a.AuthController [jetty-1039] User not found: adam
+2026-06-05 21:12:50,782 WARN s.s.p.s.c.a.AuthController [jetty-1046] User not found: adam
+2026-06-05 21:12:52,546 WARN s.s.p.s.c.a.AuthController [jetty-1049] User not found: adam
+2026-06-05 21:12:56,442 WARN s.s.p.s.c.a.AuthController [jetty-1058] Blocked account login attempt for user: adamnorin from IP: 172.18.0.1
+2026-06-05 21:13:08,719 WARN s.s.p.s.c.a.AuthController [jetty-1060] User not found: adamladan
+2026-06-05 21:41:00,796 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-05 21:41:00,797 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-05 21:41:00,797 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-05 22:11:00,799 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-05 22:11:00,799 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-05 22:11:00,800 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-05 22:18:33,370 INFO s.s.S.SPDFApplication [main] Additional features in jar
+2026-06-05 22:18:33,392 INFO s.s.c.c.ConfigInitializer [main] Current settings file line count: 317
+2026-06-05 22:18:37,983 INFO s.s.c.c.ConfigInitializer [main] Settings file updated based on template changes.
+2026-06-05 22:18:37,987 INFO s.s.S.SPDFApplication [main] Settings file: ./configs/settings.yml
+2026-06-05 22:18:37,990 INFO s.s.S.SPDFApplication [main] Custom settings file: ./configs/custom_settings.yml
+2026-06-05 22:18:41,375 INFO s.s.S.SPDFApplication [main] Starting SPDFApplication v2.7.2 using Java 25.0.2 with PID 263 (/app/app.jar started by ubuntu in /app)
+2026-06-05 22:18:41,387 INFO s.s.S.SPDFApplication [main] The following 1 profile is active: "security"
+2026-06-05 22:19:09,260 INFO s.s.S.c.MultipartConfiguration [main] Using default multipart file upload limit: 2000MB
+2026-06-05 22:19:19,722 INFO s.s.p.s.c.DatabaseConfig [main] Using default H2 database
+2026-06-05 22:19:39,398 INFO s.s.p.s.s.KeyPersistenceService [main] Loading 1 existing JWT keys from disk
+2026-06-05 22:19:39,415 INFO s.s.p.s.s.KeyPersistenceService [main] Set active JWT signing key: jwt-key-2026-03-13-203835
+2026-06-05 22:19:39,416 INFO s.s.p.s.s.KeyPersistenceService [main] Successfully loaded 1 JWT keys, active key: jwt-key-2026-03-13-203835
+2026-06-05 22:19:40,423 INFO s.s.p.s.s.DatabaseService [main] Source directory does not exist: configs/db/backup
+2026-06-05 22:19:41,274 INFO s.s.c.c.RuntimePathConfig [main] Registered watched folder path: /app/pipeline/watchedFolders
+2026-06-05 22:19:41,276 INFO s.s.c.c.RuntimePathConfig [main] Using Tesseract data path: /usr/share/tesseract-ocr/5/tessdata
+2026-06-05 22:19:41,410 WARN s.s.S.c.ExternalAppDepConfig [virtual-43] Missing dependency: rar - Disabling group: rar (Affected features: PDF To Cbr)
+2026-06-05 22:19:41,420 INFO s.s.S.c.ExternalAppDepConfig [virtual-49] qpdf 12.3.2 meets minimum 12.0.0
+2026-06-05 22:19:46,391 WARN s.s.S.c.ExternalAppDepConfig [virtual-50] WeasyPrint version could not be determined (/opt/venv/bin/weasyprint --version)
+2026-06-05 22:19:48,199 INFO s.s.S.c.EndpointConfiguration [main] Disabled tool groups: rar (endpoints may have alternative implementations)
+2026-06-05 22:19:48,199 INFO s.s.S.c.EndpointConfiguration [main] Disabled functional groups: enterprise
+2026-06-05 22:19:48,200 INFO s.s.S.c.EndpointConfiguration [main] Total disabled endpoints: 2. Disabled endpoints: pdf-to-cbr, url-to-pdf
+2026-06-05 22:19:50,303 INFO s.s.S.s.VeraPDFService [main] VeraPDF Greenfield initialized successfully
+2026-06-05 22:19:50,616 INFO s.s.S.s.PdfJsonFallbackFontService [main] Using fallback font location: classpath:/static/fonts/NotoSans-Regular.ttf
+2026-06-05 22:19:50,637 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] CFF conversion enabled, checking tool availability...
+2026-06-05 22:19:50,646 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] Python command '/opt/venv/bin/python3' is available
+2026-06-05 22:19:50,658 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] FontForge command 'fontforge' is available
+2026-06-05 22:19:50,660 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] Selected CFF converter method: python
+2026-06-05 22:19:53,534 INFO s.s.S.s.p.t.l.Type3FontLibrary [main] [TYPE3] Loaded 61 Type3 library entries (signatures=81, aliases=64) from classpath:/type3/library/index.json
+2026-06-05 22:19:56,154 INFO s.s.c.s.MobileScannerService [main] Mobile scanner temp directory: /tmp/stirling-pdf/stirling-mobile-scanner
+2026-06-05 22:19:57,025 INFO s.s.c.u.FileMonitor [main] Monitoring directory: /app/pipeline/watchedFolders
+2026-06-05 22:19:57,031 INFO s.s.c.u.FileMonitor [main] Registered directory: /app/pipeline/watchedFolders
+2026-06-05 22:19:57,493 INFO s.s.S.s.CertificateValidationService [main] Loading certificates from Java system trust store
+2026-06-05 22:19:57,624 INFO s.s.S.s.CertificateValidationService [main] Loaded 144 CA certificates from Java system trust store
+2026-06-05 22:19:57,625 INFO s.s.S.s.CertificateValidationService [main] Loading bundled Mozilla CA certificates from resources
+2026-06-05 22:19:57,822 INFO s.s.S.c.w.ReactRoutingController [main] Static files custom path: ./customFiles/static/
+2026-06-05 22:19:58,167 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] System resource status changed from OK to WARNING
+2026-06-05 22:19:58,178 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] Current metrics - CPU: 86.6%, Memory: 12.2%, Free Memory: 79 MB
+2026-06-05 22:19:58,393 INFO s.s.c.s.TempFileCleanupService [main] Running in Docker mode, using aggressive cleanup strategy
+2026-06-05 22:19:58,419 INFO s.s.c.s.TempFileCleanupService [main] Startup cleanup complete. Deleted 0 temporary files/directories
+2026-06-05 22:20:02,157 INFO s.s.p.s.UserLicenseSettingsService [main] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-06-05 22:20:05,001 INFO s.s.p.s.c.SecurityConfiguration [main] No CORS allowed origins configured in settings.yml (system.corsAllowedOrigins); allowing all origins.
+2026-06-05 22:20:10,966 INFO s.s.c.s.JobQueue [main] Starting JobQueue lifecycle
+2026-06-05 22:20:11,151 INFO s.s.S.SPDFApplication [main] Started SPDFApplication in 93.145 seconds (process running for 107.265)
+2026-06-05 22:20:11,161 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-05 22:20:11,170 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-05 22:20:11,178 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-05 22:20:11,198 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /v1/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-05 22:20:11,199 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-05 22:20:11,200 INFO s.s.S.SPDFApplication [main] Stirling-PDF running on port: 8080
+2026-06-05 22:20:11,202 INFO s.s.p.s.ServerCertificateService [main] Server certificate feature requires Pro or Enterprise license
+2026-06-05 22:20:11,210 INFO s.s.p.s.UserLicenseSettingsService [main] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-06-05 22:20:11,215 INFO s.s.S.SPDFApplication [main] Stirling-PDF Started.
+2026-06-05 22:20:11,216 INFO s.s.S.SPDFApplication [main] Navigate to http://localhost:8080/
+2026-06-05 22:20:58,166 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] System resource status changed from WARNING to OK
+2026-06-05 22:20:58,167 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] Current metrics - CPU: 43.8%, Memory: 11.5%, Free Memory: 123 MB
+2026-06-05 22:33:01,199 INFO s.s.c.c.TempFileShutdownHook [Thread-2] Shutdown cleanup complete. Deleted 0 temporary files/directories
+2026-06-05 22:33:01,242 INFO s.s.c.s.JobQueue [SpringApplicationShutdownHook] Stopping JobQueue lifecycle
+2026-06-05 22:33:01,247 INFO s.s.c.s.JobQueue [SpringApplicationShutdownHook] Shutting down job queue
+2026-06-05 22:33:01,252 INFO s.s.c.s.JobQueue [SpringApplicationShutdownHook] Job queue shutdown complete. Stats: total=0, rejected=0
+2026-06-05 22:33:01,278 INFO s.s.c.c.TempFileShutdownHook [SpringApplicationShutdownHook] Application shutting down, cleaning up temporary files
+2026-06-05 22:33:01,280 INFO s.s.c.c.TempFileShutdownHook [SpringApplicationShutdownHook] Shutdown cleanup complete. Deleted 0 temporary files/directories
+2026-06-05 22:33:01,284 INFO s.s.c.s.ResourceMonitor [SpringApplicationShutdownHook] Shutting down resource monitoring
+2026-06-05 22:33:01,347 INFO s.s.c.s.TaskManager [SpringApplicationShutdownHook] Shutting down job result cleanup executor
+2026-06-05 22:34:41,426 INFO s.s.S.SPDFApplication [main] Additional features in jar
+2026-06-05 22:34:41,462 INFO s.s.c.c.ConfigInitializer [main] Current settings file line count: 317
+2026-06-05 22:34:46,185 INFO s.s.c.c.ConfigInitializer [main] Settings file updated based on template changes.
+2026-06-05 22:34:46,188 INFO s.s.S.SPDFApplication [main] Settings file: ./configs/settings.yml
+2026-06-05 22:34:46,190 INFO s.s.S.SPDFApplication [main] Custom settings file: ./configs/custom_settings.yml
+2026-06-05 22:34:49,748 INFO s.s.S.SPDFApplication [main] Starting SPDFApplication v2.7.2 using Java 25.0.2 with PID 275 (/app/app.jar started by ubuntu in /app)
+2026-06-05 22:34:49,770 INFO s.s.S.SPDFApplication [main] The following 1 profile is active: "security"
+2026-06-05 22:35:19,825 INFO s.s.S.c.MultipartConfiguration [main] Using default multipart file upload limit: 2000MB
+2026-06-05 22:35:30,425 INFO s.s.p.s.c.DatabaseConfig [main] Using default H2 database
+2026-06-05 22:35:48,925 INFO s.s.p.s.s.KeyPersistenceService [main] Loading 1 existing JWT keys from disk
+2026-06-05 22:35:48,942 INFO s.s.p.s.s.KeyPersistenceService [main] Set active JWT signing key: jwt-key-2026-03-13-203835
+2026-06-05 22:35:48,943 INFO s.s.p.s.s.KeyPersistenceService [main] Successfully loaded 1 JWT keys, active key: jwt-key-2026-03-13-203835
+2026-06-05 22:35:49,983 INFO s.s.p.s.s.DatabaseService [main] Source directory does not exist: configs/db/backup
+2026-06-05 22:35:51,076 INFO s.s.c.c.RuntimePathConfig [main] Registered watched folder path: /app/pipeline/watchedFolders
+2026-06-05 22:35:51,078 INFO s.s.c.c.RuntimePathConfig [main] Using Tesseract data path: /usr/share/tesseract-ocr/5/tessdata
+2026-06-05 22:35:51,239 INFO s.s.S.c.ExternalAppDepConfig [virtual-50] qpdf 12.3.2 meets minimum 12.0.0
+2026-06-05 22:35:51,244 WARN s.s.S.c.ExternalAppDepConfig [virtual-43] Missing dependency: rar - Disabling group: rar (Affected features: PDF To Cbr)
+2026-06-05 22:35:56,240 WARN s.s.S.c.ExternalAppDepConfig [virtual-51] WeasyPrint version could not be determined (/opt/venv/bin/weasyprint --version)
+2026-06-05 22:35:57,891 INFO s.s.S.c.EndpointConfiguration [main] Disabled tool groups: rar (endpoints may have alternative implementations)
+2026-06-05 22:35:57,892 INFO s.s.S.c.EndpointConfiguration [main] Disabled functional groups: enterprise
+2026-06-05 22:35:57,893 INFO s.s.S.c.EndpointConfiguration [main] Total disabled endpoints: 2. Disabled endpoints: pdf-to-cbr, url-to-pdf
+2026-06-05 22:35:59,574 INFO s.s.S.s.VeraPDFService [main] VeraPDF Greenfield initialized successfully
+2026-06-05 22:35:59,834 INFO s.s.S.s.PdfJsonFallbackFontService [main] Using fallback font location: classpath:/static/fonts/NotoSans-Regular.ttf
+2026-06-05 22:35:59,857 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] CFF conversion enabled, checking tool availability...
+2026-06-05 22:35:59,867 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] Python command '/opt/venv/bin/python3' is available
+2026-06-05 22:35:59,877 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] FontForge command 'fontforge' is available
+2026-06-05 22:35:59,878 INFO s.s.S.s.p.PdfJsonFontService [main] [FONT-DEBUG] Selected CFF converter method: python
+2026-06-05 22:36:02,809 INFO s.s.S.s.p.t.l.Type3FontLibrary [main] [TYPE3] Loaded 61 Type3 library entries (signatures=81, aliases=64) from classpath:/type3/library/index.json
+2026-06-05 22:36:05,483 INFO s.s.c.s.MobileScannerService [main] Mobile scanner temp directory: /tmp/stirling-pdf/stirling-mobile-scanner
+2026-06-05 22:36:06,312 INFO s.s.c.u.FileMonitor [main] Monitoring directory: /app/pipeline/watchedFolders
+2026-06-05 22:36:06,316 INFO s.s.c.u.FileMonitor [main] Registered directory: /app/pipeline/watchedFolders
+2026-06-05 22:36:06,916 INFO s.s.S.s.CertificateValidationService [main] Loading certificates from Java system trust store
+2026-06-05 22:36:07,073 INFO s.s.S.s.CertificateValidationService [main] Loaded 144 CA certificates from Java system trust store
+2026-06-05 22:36:07,074 INFO s.s.S.s.CertificateValidationService [main] Loading bundled Mozilla CA certificates from resources
+2026-06-05 22:36:07,212 INFO s.s.S.c.w.ReactRoutingController [main] Static files custom path: ./customFiles/static/
+2026-06-05 22:36:07,488 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] System resource status changed from OK to CRITICAL
+2026-06-05 22:36:07,496 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] Current metrics - CPU: 97.2%, Memory: 10.3%, Free Memory: 125 MB
+2026-06-05 22:36:07,698 INFO s.s.c.s.TempFileCleanupService [main] Running in Docker mode, using aggressive cleanup strategy
+2026-06-05 22:36:07,729 INFO s.s.c.s.TempFileCleanupService [main] Startup cleanup complete. Deleted 0 temporary files/directories
+2026-06-05 22:36:10,532 INFO s.s.p.s.UserLicenseSettingsService [main] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-06-05 22:36:13,273 INFO s.s.p.s.c.SecurityConfiguration [main] No CORS allowed origins configured in settings.yml (system.corsAllowedOrigins); allowing all origins.
+2026-06-05 22:36:19,328 INFO s.s.c.s.JobQueue [main] Starting JobQueue lifecycle
+2026-06-05 22:36:19,570 INFO s.s.S.SPDFApplication [main] Started SPDFApplication in 93.362 seconds (process running for 104.714)
+2026-06-05 22:36:19,573 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-05 22:36:19,582 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-05 22:36:19,586 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-05 22:36:19,624 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /v1/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-06-05 22:36:19,625 WARN o.s.c.e.SpringDocAppInitializer [main] SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-06-05 22:36:19,628 INFO s.s.S.SPDFApplication [main] Stirling-PDF running on port: 8080
+2026-06-05 22:36:19,629 INFO s.s.p.s.ServerCertificateService [main] Server certificate feature requires Pro or Enterprise license
+2026-06-05 22:36:19,638 INFO s.s.p.s.UserLicenseSettingsService [main] License check result: type=NORMAL, requiresPaid=true, hasPaid=false
+2026-06-05 22:36:19,644 INFO s.s.S.SPDFApplication [main] Stirling-PDF Started.
+2026-06-05 22:36:19,645 INFO s.s.S.SPDFApplication [main] Navigate to http://localhost:8080/
+2026-06-05 22:37:07,486 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] System resource status changed from CRITICAL to OK
+2026-06-05 22:37:07,488 INFO s.s.c.s.ResourceMonitor [resource-monitor-0] Current metrics - CPU: 54.5%, Memory: 9.5%, Free Memory: 521 MB
+2026-06-05 23:06:19,602 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-05 23:06:19,603 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-05 23:06:19,604 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
+2026-06-05 23:36:19,606 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Running scheduled temporary file cleanup
+2026-06-05 23:36:19,608 INFO s.s.c.u.TempFileManager [scheduled-vt-2] Cleaned up 0 old temporary files
+2026-06-05 23:36:19,609 INFO s.s.c.s.TempFileCleanupService [scheduled-vt-2] Cleaned up 0 registered temporary files
