@@ -10,3 +10,6 @@ Thumbs.db
 
 adguard/work/
 adguard/conf/
+
+ollama/ollama_data/
+ollama/webui_data/

@@ -1,26 +1,33 @@
-# 🏠 Homarr
+# 🎯 Homarr & Dashdot
 
-A sleek, modern dashboard that acts as the central hub for all my self-hosted services. It provides quick access to apps and real-time monitoring of server health.
+A sleek, modern dashboard that acts as the central hub for all self-hosted services. It provides quick access to apps, while Dashdot runs in the background to feed it real-time monitoring of server health, CPU, and RAM.
 
-## 🔗 Links
-* **Local Access:** http://192.168.0.49:7575 (or via Tailscale IP)
-* **Official Documentation:** [Homarr Docs](https://homarr.dev/docs/getting-started/)
+## 🔗 Access & Links
+* **Homarr Interface:** [http://homelab:7575](http://homelab:7575)
+* **Dashdot Interface:** [http://homelab:3001](http://homelab:3001)
+* **Official Documentation:** [Homarr Docs](https://homarr.dev/) | [Dashdot Docs](https://getdashdot.com/)
 
 ---
 
-## ⚙️ Configuration & Data
-	
-This service is deployed using the `docker-compose.yml` file located in this directory.
+## ⚙️ Configuration & Architecture
 
-**Note:** This compose file actually spins up **two** containers that work together: Homarr (the dashboard) and Dashdot (the system monitor that feeds CPU/RAM data to Homarr).
+This stack is deployed using the `docker-compose.yml` file located in this directory.
 
-**Exposed Ports:**
-* `7575` (Web UI)
-* `3001` (Dashdot Web UI / API)
+### 📦 Containers in this Stack
+| Container Name | Image | Purpose |
+| :--- | :--- | :--- |
+| `homarr` | `ghcr.io/homarr-labs/homarr:latest` | The main dashboard application and web interface. |
+| `dashdot` | `mauricenino/dashdot:latest` | System monitor that provides live CPU, RAM, and temperature data. |
 
-**Volumes (Persistent Data):**
-* `./appdata:/appdata` *(All your Homarr layouts, settings, databases and custom icons are stored here)*
-* `/var/run/docker.sock:/var/run/docker.sock` *(Allows Homarr to read Docker status and manage containers)*
-* `/:/mnt/host:ro` *(Allows Dashdot read-only access to monitor the host's hardware)*
+### 🚪 Exposed Ports
+| Port | Protocol | Purpose |
+| :--- | :--- | :--- |
+| `7575` | TCP | Homarr Web Interface. |
+| `3001` | TCP | Dashdot Web Interface / API. |
 
-*Note: The `./appdata` folder is the most important one. Without it, you lose your entire dashboard layout and configuration.*
+### 💾 Volumes & Mounts (Persistent Data)
+| Local Path / Volume | Container Path | Description |
+| :--- | :--- | :--- |
+| `./appdata` | `/appdata` | **Crucial:** Stores all your Homarr layouts, settings, configurations, and custom icons. |
+| `/var/run/docker.sock` | `/var/run/docker.sock` | Allows Homarr to read Docker status and manage your containers. |
+| `/` | `/mnt/host:ro` | Allows Dashdot read-only access to monitor the host machine's hardware. |
